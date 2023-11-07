@@ -27,3 +27,5 @@ useEffect(() => {
 ```
 
 It basically just changes the state through async timeout calls to give React the signal to force a render and allow the Coach to show up on intialization of the main dom.
+
+Also note that this demo is using React `17.02` but the issue seems to occur in version 18 as well.
